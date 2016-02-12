@@ -6,11 +6,8 @@
             <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/controllers/PacManNode.java</file>
             <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/Executor.java</file>
             <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/controllers/BFS_Controller.java</file>
-            <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/controllers/examples/StarterPacMan.java</file>
             <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/game/Game.java</file>
-            <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/entries/pacman/MyPacMan.java</file>
-            <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/controllers/examples/StarterGhosts.java</file>
-            <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/controllers/Controller.java</file>
+            <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/controllers/DFS_Controller_Kevin_Ethier.java</file>
             <file>file:/Users/Kevin/Desktop/kevin/AI/PacMan_v6.2/PacMan_v6.2/src/pacman/controllers/BFS_Controller_Kevin_Ethier.java</file>
         </group>
     </open-files>

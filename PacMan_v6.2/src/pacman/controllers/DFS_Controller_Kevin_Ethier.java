@@ -1,12 +1,17 @@
+
+/**
+ *
+ * @author Kevin M. Ethier
+ */
 /*
  This controller class is my implementation for the Breadth First Search 
  Algorithm used to navigate Ms. Pacman, through the maze, while avoiding 
  ghosts and in order to reach a high score. 
  */
+
 package pacman.controllers;
+
 import java.util.Arrays;
-import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 import pacman.controllers.examples.StarterGhosts;
@@ -22,7 +27,7 @@ DOWN 	{ public MOVE opposite(){return MOVE.UP;		};},
 LEFT 	{ public MOVE opposite(){return MOVE.RIGHT;	};}, 	
 NEUTRAL	{ public MOVE opposite(){return MOVE.NEUTRAL;	};};
 */
-public class BFS_Controller_Kevin_Ethier extends Controller<MOVE> {
+public class DFS_Controller_Kevin_Ethier extends Controller<MOVE> {
             
     public class CurrentGameState{
         public Game current;
@@ -93,7 +98,7 @@ public class BFS_Controller_Kevin_Ethier extends Controller<MOVE> {
             // object, run the move, create a new currentGameState object
             // save this simulation in it and finally push onto the stack
             else{
-                for (MOVE m : moves) { 
+                for (MOVE m : thisGame.current.getPossibleMoves(thisGame.current.getPacmanCurrentNodeIndex())) { 
                     Game gameState = thisGame.current.copy();
                     gameState.advanceGame(m,ghosts.getMove(gameState,0));
                     CurrentGameState resultGame = new CurrentGameState(gameState,thisGame.depth+1);
@@ -104,3 +109,4 @@ public class BFS_Controller_Kevin_Ethier extends Controller<MOVE> {
         return highestScore; 
     }       
 }
+
