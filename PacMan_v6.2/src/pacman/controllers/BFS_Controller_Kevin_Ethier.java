@@ -38,7 +38,7 @@ public class BFS_Controller_Kevin_Ethier extends Controller<MOVE> {
     
 
     int bestScore = -1;
-    MOVE bestMove = MOVE.RIGHT;
+    MOVE bestMove = MOVE.LEFT;
 
     @Override
     public MOVE getMove(Game game, long timeDue) {
