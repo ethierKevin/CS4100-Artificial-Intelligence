@@ -9,9 +9,11 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.Random;
+import pacman.controllers.BFS_Controller;
 import pacman.controllers.Controller;
 import pacman.controllers.DFS_Controller_Kevin_Ethier;
 import pacman.controllers.HumanController;
+import pacman.controllers.KeyBoardInput;
 import pacman.controllers.examples.StarterGhosts;
 import pacman.game.Game;
 import pacman.game.GameView;
@@ -55,9 +57,9 @@ public class Executor
 //		exec.runGameTimed(new NearestPillPacMan(),new AggressiveGhosts(),visual);
 //		exec.runGameTimed(new MyPacMan(),new StarterGhosts(),visual);	
 //		exec.runGameTimed(new StarterPacMan(),new StarterGhosts(),visual);
-//		exec.runGameTimed(new HumanController(new KeyBoardInput()),new StarterGhosts(),visual);	
+		exec.runGameTimed(new HumanController(new KeyBoardInput()),new StarterGhosts(),visual);	
 //                exec.runGameTimed(new BFS_Controller(),new StarterGhosts(),visual);
-                exec.runGameTimed(new DFS_Controller_Kevin_Ethier(),new StarterGhosts(),visual);
+//              exec.runGameTimed(new DFS_Controller_Kevin_Ethier(),new StarterGhosts(),visual);
 
 		//*/
 		
