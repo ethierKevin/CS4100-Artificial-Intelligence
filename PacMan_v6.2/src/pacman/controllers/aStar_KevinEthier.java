@@ -1,9 +1,10 @@
-/**
+/
+*
  *
  * @author Kevin M. Ethier
  */
 /*
- This controller class is my implementation for the Breadth First Search 
+ This controller class is my implementation for the aStar 
  Algorithm used to navigate Ms. Pacman, through the maze, while avoiding 
  ghosts and in order to reach a high score. 
  */
